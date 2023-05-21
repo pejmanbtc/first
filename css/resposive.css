@@ -1,0 +1,264 @@
+/* mbil */
+@media screen and (min-width:320px){
+    .contHeder{
+        max-width: 100vw;
+        height: 100%;
+        background-color: var(--lightGrey);
+     }
+    header{
+        max-width: 576px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: var(--lightGrey);
+        position: relative;
+    }
+    .containemenu{
+        width: 100%;
+        height: 10%;
+        padding: 1rem 2rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    .menUch{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     }
+    .lim {
+        padding: 0 2rem 0 0rem;
+        color: var(--darkGrey);
+        
+    }
+    .sizm{
+        width: 1.5rem;
+        align-self: center;
+        
+     }
+    .CforL-T{
+        display: none;
+     }
+
+    .Secpictex{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 2rem;
+      }
+      .sizlogo{
+        width: 8rem;
+     }
+   
+}
+
+/* Mobil L */
+@media screen and (max-width:520px) {
+     /* option */
+    .option{
+        padding: 1rem 8rem;
+    }
+    .opCh>div a{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin-bottom: 0.5rem;
+        display: flex;
+        padding: 0.4rem ;
+    }
+    .opCh div a img{
+        width: 3rem;
+    }
+    .opCh div a span:first-child{
+        font-size: small;
+    }
+    .opCh div a span:last-child{
+        font-size: xx-small;
+        color: var(--darkGrey);
+    }
+    .opCh div a div{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+}
+@media screen and (min-width:520px) {
+       /* option */
+       .option{
+        padding: 1rem 2.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .opCh{
+        display: flex;
+        margin-top: 5%;
+    
+    }
+    .opCh>div a{
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+        /* margin-bottom: 0.5rem; */
+        display: flex;
+        padding-left: 3rem ;
+    }
+    
+    .opCh div a img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .opCh div a span:first-child{
+        font-size: small;
+        letter-spacing:1px;
+    }
+    .opCh div a span:last-child{
+        font-size: x-small;
+        color: var(--darkGrey);
+    }
+    .opCh div a div{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+}
+
+
+/* tablet  */
+@media screen and (min-width:768px){
+    .contHeder{
+        width: 100vw;
+        height: 90%;
+    }
+    header{
+        max-width:100% ;
+        height: 100%;
+        margin: 0 auto;
+        background-color: var(--lightGrey);
+        position: relative;
+    }
+    .containemenu{
+        width: 100%;
+        height: 12%;
+        box-shadow: 0px 1px 2px #d4d2d2;
+        padding: 1rem 2.7rem;
+        display: flex;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+    }
+    .menUch{
+        display: flex;
+        align-items: center;
+    }
+    .lim {
+        padding: 0 3rem 0 0rem;
+        color: var(--darkGrey);
+    }
+    .sizT{
+        padding: 0;
+    }
+    .btn1{
+        display: none;
+    }
+    .sizm{
+        width: 1.8rem;
+        margin-top: 1rem;
+     }
+     /* menu for laptop and tablet */
+     .CforL-T{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+
+     }
+     .CforL-T  ul{
+        display: flex;
+        padding-left: 2rem;
+     }
+ 
+     .CforL-T ul a li{
+        padding-left: 2rem;
+     }
+     .CforL-T ul a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--darkGrey);
+     }
+     .serhol{
+        position: relative;
+        right: 1rem;  
+    }
+
+    .serhol img{
+        position: absolute;
+        right: 0.5rem;
+        top: 0.4rem;
+     }
+
+    .Secpictex{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 2.7rem;
+     }
+    .sizlogo{
+        width: 9.5rem;
+    }
+    .SerLT{
+        width: 16rem;
+        border-radius: 10rem;
+        border: 0;
+        padding: 1rem 2rem;
+        background-color: #e5e5e5;
+        transition: width 0.2s;
+     
+     }
+    /* .sertogg{
+    width: 18rem;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    border: 0;
+    background-color: #e5e5e5;
+    } */
+      /* option */
+      .option{
+        padding: 1rem 2.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+/* laptop */
+@media screen and (min-width:992px) {
+
+    .CforL-T ul a li{
+        padding-left: 4rem;
+     }
+    .lim {
+        padding: 0 4rem 0 0rem;
+        color: var(--darkGrey);  
+    }
+    .sizT{
+        padding: 0;
+    }
+    .opCh>div a{
+        padding-left: 6rem;
+    }
+}
+
+/* Laptop L */
+@media screen and (min-width:1200px) {
+    .containemenu{
+        padding: 1.5rem 5rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .containemenu{
+        padding: 1.5rem 20rem;
+    }
+    .Secpictex{
+        padding: 0 20rem;
+    }
+}
